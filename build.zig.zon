@@ -1,0 +1,11 @@
+.{
+    .name = "ncurses.zig",
+    .version = "6.4.0",
+    .paths = .{"."},
+    .dependencies = .{
+        .ncurses = .{
+            .url = "https://github.com/mirror/ncurses/archive/refs/tags/v6.4.tar.gz",
+            .hash = "122083b8aed0c7c43e331ea98de601057f60f08eae27daf90d9f4bd3d36595891d61",
+        },
+    },
+}
